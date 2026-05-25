@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Apple MacBook Pro 14",
         price: 106699,
         description: "Ультимативний ноутбук для професіоналів. Потужний процесор, вражаючий дисплей Liquid Retina XDR та довга автономність.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/rrr (2).png"
+        image: "images/rrr (2).png"
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Xiaomi Pad 7",
         price: 12999,
         description: "Сучасний планшет для роботи та розваг із яскравим дисплеєм та підтримкою фірмового стилуса.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/Знімок_екрана_2026-05-21_163928-removebg-preview.png"
+        image: "images/Знімок_екрана_2026-05-21_163928-removebg-preview.png"
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Samsung Galaxy Tab S10 Plus",
         price: 33249,
         description: "Преміальний планшет із великим AMOLED-екраном, захистом від води та комплектним пером S Pen.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/aaa (1).webp"
+        image: "images/aaa (1).webp"
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Xiaomi Earbuds 6 Active",
         price: 699,
         description: "Бюджетні бездротові навушники з хорошим басом, ергономічним дизайном та тривалим часом роботи.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/6_active-removebg-preview.png"
+        image: "images/6_active-removebg-preview.png"
     },
     {
         id: 7,
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Sony PlayStation 6 (ранній доступ)",
         price: 100000000,
         description: "Ексклюзивна пропозиція! Консоль майбутнього покоління. Ціна кусається, але статус безцінний.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/ps6-removebg-preview.png"
+        image: "images/ps6-removebg-preview.png"
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         name: "Qichang Fossibot F106 Pro",
         price: 7199,
         description: "Захищений невбивний смартфон із величезною батареєю, потужним ліхтариком та вбудованим динаміком-колонкою.",
-        image: "C:/Users/andri/Documents/фінальний проєкт/images/446090105-removebg-preview.png"
+        image: "images/446090105-removebg-preview.png"
     },
     {
         id: 11,
