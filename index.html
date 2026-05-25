@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechStore</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="in-header">
+                <a class="logo" href="index.html">TechStore</a>
+                <nav>
+                    <a class="nav_link" href="#products-section">Товари</a>
+                    <a class="nav_link" href="#contacts-section">Контакти</a>
+                    <a class="nav_link" href="cart.html">Кошик</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="add-to-cart-screen">
+            <img class="cart-gif"
+                src="https://assets-v2.lottiefiles.com/a/765d3a02-1176-11ee-b963-af13a95f0139/qU8Ww2EpnB.gif">
+            <p>Товар додано до кошику</p>
+            <a href="cart.html"><button class="add-to-cart-btn">Перейти до кошику</button></a>
+            <button class="back-btn">Купити ще</button>
+        </div>
+        <div class="overlay" id="overlay"></div>
+    <div class="overlay" id="cart-overlay"></div>
+        <div class="details" id="details">
+            <img class="product-img" src="">
+            <h2 class="product-title"></h2>
+            <p class="product-price"></p>
+            <button class="add-to-cart-btn">Додати до кошика</button>
+            <button class="back-btn">Назад</button>
+            <p class="product-description"></p>
+
+        </div>
+
+        <section id="products-section"></section>
+
+        <div class="container-for-canging-text">
+
+            <span>
+                У нас тут є
+                <span class="changing-text"></span>
+            </span>
+
+        </div>
+
+        <div class="products" id="products"></div>
+
+    </main>
+
+    <footer>
+
+        <section id="contacts-section">
+
+            <p>
+                Напишіть ваш номер телефону,
+                і ми зв'яжемося з вами:
+            </p>
+
+            <input type="number" placeholder="номер телефону без +38" id="phone-input">
+
+            <button id="call-btn" class="call-btn">
+                Зателефонувати
+            </button>
+
+        </section>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

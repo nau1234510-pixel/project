@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: none;
+    z-index: 999;
+}
+
+.details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    min-height: 500px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.add-to-cart-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    min-height: 300px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+
+header,
+a {
+    background-color: #192c3f;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #6294ce;
+}
+
+header .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    font-size: 20px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container-for-canging-text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.changing-text {
+    border-right: 3px solid #000000;
+    white-space: nowrap;
+    padding-right: 5px;
+    animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #000000;
+    }
+}
+
+.product {
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(212, 212, 212);
+}
+
+.product-img {
+    height: 225px;
+    width: 250px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.add-to-cart-btn {
+    padding: 5px 15px;
+    background-color: #192c3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.back-btn {
+    padding: 5px 15px;
+    background-color: #192c3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.not-changing-text {
+    font-size: 40px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #6294ce;
+}
+
+.back-btn:hover {
+    background-color: #6294ce;
+}
+
+.details-btn {
+    padding: 5px 15px;
+    background-color: #192c3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.details-btn:hover {
+    background-color: #6294ce;
+}
+
+h4 {
+    margin: 5px;
+    color: #192c3f;
+}
+
+.product-prize {
+    color: #192c3f;
+    margin: 0;
+}
+
+footer {
+    background-color: #192c3f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.call-btn {
+    padding: 5px 15px;
+    background-color: #5393d3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.call-btn:hover {
+    background-color: #97b9e0;
+}
