@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<title>Підтвердити замовлення</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="in-header">
+                <a class="logo" href="index.html">TechStore</a>
+                <nav>
+                    <a class="nav_link" href="index.html#products-section">Товари</a>
+                    <a class="nav_link" href="index.html#contacts-section">Контакти</a>
+                    <a class="nav_link" href="cart.html">Кошик</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="overlay"></div>
+        <div class="payment-processing">
+            <h3>Зачекайте, виконується оплата...</h3>
+            <img src="https://media.giphy.com/media/EopV0wKH3USE9F7fhe/giphy.gif" class="pay-gif">
+        </div>
+        <h1>Оформлення замовлення</h1>
+        <h1 id="total-amout">До сплати: </h1>
+        <h1>Оберіть спосіб оплати</h1>
+        <button id="gpay" class="pay-btn"><img src="images/gpay.png" class="pay-img"></button>
+        <p>google pay</p>
+        <button id="apay" class="apay-btn"><img src="images/apay.png" class="pay-img"></button>
+        <p>apple pay</p>
+        <button id="paypal" class="paypal-btn"><img src="images/paypal.png" class="pay-img"></button>
+        <p>paypal</p>
+        <button id="pay24" class="apay-btn"><img src="images/24pay.png" class="pay24-img"></button>
+        <p>24pay</p>
+    </main>
+    <script src="js/order.js"></script>
+</body>
+
+</html>
