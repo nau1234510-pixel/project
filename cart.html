@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/cart.css">
+    <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>кошик</title>
+    <title>Кошик</title>
 </head>
+
 <body>
-    
-</body>
-<body>
+    <header>
+        <div class="container">
+            <div class="in-header">
+                <a class="logo" href="index.html">TechStore</a>
+                <nav>
+                    <a class="nav_link" href="index.html#products-section">Товари</a>
+                    <a class="nav_link" href="index.html#contacts-section">Контакти</a>
+                    <a class="nav_link" href="cart.html">Кошик</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart-page">
+            <h1>Ваш кошик</h1>
+            <div id="cart-items" class="cart-items"></div>
+            <div id="cart-summary" class="cart-summary"></div>
+            <button id="clear-cart-btn" class="call-btn">Очистити кошик</button>
+            <button id="checkout-btn" class="call-btn">Підтвердити замовлення</button>
+        </section>
+    </main>
+
     <script src="js/cart.js"></script>
 </body>
+
 </html>
