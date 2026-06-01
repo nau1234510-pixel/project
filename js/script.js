@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { id: 2, 
             brand: "Xiaomi", 
             name: "Xiaomi Redmi 14C", 
-            price: 5659, 
+            price: 5659,
             type: "телефони", 
             description: "Доступний та стильний смартфон із великим екраном та потужною батареєю для повсякденних завдань.", 
             image: "https://sota.store/image/cache/catalog/Xiaomi-3/Redmi-14C-grn-03-1600x1600.webp" },
