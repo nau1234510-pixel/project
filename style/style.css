@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+html {
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -37,23 +37,20 @@ body {
     z-index: 1000;
 }
 
-.add-to-cart-screen {
+.cart-notification {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    min-height: 300px;
+    top: 20px;
+    right: 20px;
+    background-color: #13bcd3;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding: 1.5rem;
-    border: 1px solid #ccc;
-    border-radius: 16px;
-    background: rgb(212, 212, 212);
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+    gap: 0.5rem;
+    z-index: 1001;
+    transition: opacity 0.3s ease;
 }
 
 
@@ -109,6 +106,23 @@ nav {
     justify-content: center;
 }
 
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.filters input,
+.filters select {
+    min-width: 200px;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
 .changing-text {
     border-right: 3px solid #000000;
     white-space: nowrap;
@@ -162,6 +176,22 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+}
+
+.home-btn {
+    height: 40px;
+    width: 100px;
+    padding: 5px 15px;
+    background-color: #192c3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.home-btn:hover {
+    background-color: #6294ce;
 }
 
 .back-btn {
@@ -233,6 +263,130 @@ input {
     transition: background-color 0.2s ease;
 }
 
-.call-btn:hover {
+.call-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+.call-btn:not(:disabled):hover {
     background-color: #97b9e0;
+}
+
+.cart-items {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cart-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background: rgb(240, 240, 240);
+    align-items: center;
+}
+
+.cart-item-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quantity-btn {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #192c3f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: background-color 0.2s ease;
+}
+
+.quantity-btn:hover {
+    background-color: #6294ce;
+}
+
+
+
+.cart-page h1 {
+    margin-bottom: 1rem;
+    color: #192c3f;
+}
+
+.pay-btn {
+    background-color: #1F1F1F;
+    width: 260px;
+    height: 60px;
+}
+
+.pay-img {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.apay-btn {
+    background-color: #000000;
+    width: 260px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.paypal-btn {
+    background-color: #FEC43A;
+    width: 260px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.pay24-img {
+    width: 210px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.payment-processing {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    min-height: 500px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.pay-gif {
+    width: 300px;
+    height: 300px;
 }
