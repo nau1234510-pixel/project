@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Apple MacBook Pro 14", 
             price: 106699, type: "ноутбуки", 
             description: "Ультимативний ноутбук для професіоналів. Потужний процесор, вражаючий дисплей Liquid Retina XDR та довга автономність.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/rrr (2).png" },
+            image: "images/rrr (2).png" },
        
         { id: 4, 
             brand: "Xiaomi", 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             price: 12999, 
             type: "планшети", 
             description: "Сучасний планшет для роботи та розваг із яскравим дисплеєм та підтримкою фірмового стилуса.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/Знімок_екрана_2026-05-21_163928-removebg-preview.png" },
+            image: "images/Знімок_екрана_2026-05-21_163928-removebg-preview.png" },
       
         { id: 5, 
             brand: "Samsung", 
@@ -37,14 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
             price: 33249, 
             type: "планшети", 
             description: "Преміальний планшет із великим AMOLED-екраном, захистом від води та комплектним пером S Pen.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/aaa (1).webp" },
+            image: "images/aaa (1).webp" },
       
         { id: 6, 
             brand: "Xiaomi", 
             name: "Xiaomi Earbuds 6 Active", 
             price: 699, type: "навушники", 
             description: "Бюджетні бездротові навушники з хорошим басом, ергономічним дизайном та тривалим часом роботи.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/6_active-removebg-preview.png" },
+            image: "images/6_active-removebg-preview.png" },
      
         { id: 7, brand: "Sony", 
             name: "Sony PlayStation 5 Pro", 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             price: 100000000, 
             type: "консолі", 
             description: "Ексклюзивна пропозиція! Консоль майбутнього покоління. Ціна кусається, але статус безцінний.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/ps6-removebg-preview.png" },
+            image: "images/ps6-removebg-preview.png" },
   
         { id: 9, brand: "Microsoft", 
             name: "Microsoft Xbox Series X", 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Qichang Fossibot F106 Pro", 
             price: 7199, type: "телефони", 
             description: "Захищений невбивний смартфон із величезною батареєю, потужним ліхтариком та вбудованим динаміком-колонкою.", 
-            image: "C:/Users/andri/Documents/фінальний проєкт/images/446090105-removebg-preview.png" },
+            image: "images/446090105-removebg-preview.png" },
 
         { id: 11, brand: "Microsoft", name: "Microsoft Windows 11 Pro (ліцензія)", 
             price: 9999, type: "ліцензії", 
@@ -80,7 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
         { id: 12, 
             brand: "Microsoft", 
             name: "Microsoft Windows 10 Pro (ліцензія)", 
-            price: 3999, type: "ліцензії", description: "Перевірена часом та стабільна операційна система для бізнесу та дому з офіційною підтримкою.", image: "https://images.prom.ua/1416181631_w640_h640_1416181631.jpg" },
+            price: 3999, 
+            type: "ліцензії", 
+            description: "Перевірена часом та стабільна операційна система для бізнесу та дому з офіційною підтримкою.", 
+            image: "images/1416181631_w640_h640_1416181631.jpg" },
 
         { id: 13, brand: "Samsung",
             name: "Samsung Galaxy S26 Ultra", price: 50000,
